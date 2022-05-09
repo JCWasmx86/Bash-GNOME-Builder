@@ -1,0 +1,12 @@
+[Plugin]
+Authors=JCWasmx86
+Copyright=JCWasmx86
+Description=Provides shellcheck and shfmt integration
+Loader=python3
+Module=bashtools
+Name=Bashtools
+X-Diagnostic-Provider-Languages=sh
+X-Diagnostic-Provider-Languages-Priority=100
+X-Formatter-Languages=sh
+X-Formatter-Languages-Priority=200
+X-Builder-ABI=43.0
